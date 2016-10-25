@@ -25,6 +25,8 @@
 		985077BA1DBE6CA0005B3FCF /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985077B91DBE6CA0005B3FCF /* DetailViewControllerTests.swift */; };
 		985077BC1DBE6D03005B3FCF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985077BB1DBE6D03005B3FCF /* DetailViewController.swift */; };
 		985077BE1DBE6FD8005B3FCF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985077BD1DBE6FD8005B3FCF /* MapKit.framework */; };
+		985077C01DBE763A005B3FCF /* InputViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985077BF1DBE763A005B3FCF /* InputViewControllerTests.swift */; };
+		985077C21DBE766A005B3FCF /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985077C11DBE766A005B3FCF /* InputViewController.swift */; };
 		988B53A91DB5F93100F76F71 /* ItemManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988B53A81DB5F93100F76F71 /* ItemManagerTests.swift */; };
 		988B53AB1DB5F9CA00F76F71 /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988B53AA1DB5F9CA00F76F71 /* ItemManager.swift */; };
 /* End PBXBuildFile section */
@@ -62,6 +64,8 @@
 		985077B91DBE6CA0005B3FCF /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
 		985077BB1DBE6D03005B3FCF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		985077BD1DBE6FD8005B3FCF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		985077BF1DBE763A005B3FCF /* InputViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewControllerTests.swift; sourceTree = "<group>"; };
+		985077C11DBE766A005B3FCF /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		988B53A81DB5F93100F76F71 /* ItemManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemManagerTests.swift; sourceTree = "<group>"; };
 		988B53AA1DB5F9CA00F76F71 /* ItemManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +96,7 @@
 				9848E9551DBB5D3300700639 /* ItemListDataProviderTests.swift */,
 				985077B71DBE5C0E005B3FCF /* ItemCellTests.swift */,
 				985077B91DBE6CA0005B3FCF /* DetailViewControllerTests.swift */,
+				985077BF1DBE763A005B3FCF /* InputViewControllerTests.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 				983911CF1DB91FAE004C1C13 /* ItemListDataProvider.swift */,
 				9848E9571DBB69C900700639 /* ItemCell.swift */,
 				985077BB1DBE6D03005B3FCF /* DetailViewController.swift */,
+				985077C11DBE766A005B3FCF /* InputViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -278,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				985077BC1DBE6D03005B3FCF /* DetailViewController.swift in Sources */,
+				985077C21DBE766A005B3FCF /* InputViewController.swift in Sources */,
 				9848E9581DBB69C900700639 /* ItemCell.swift in Sources */,
 				983D6D841DB4CEDE007D6874 /* ViewController.swift in Sources */,
 				983911D01DB91FAE004C1C13 /* ItemListDataProvider.swift in Sources */,
@@ -296,6 +303,7 @@
 				985077B81DBE5C0E005B3FCF /* ItemCellTests.swift in Sources */,
 				9848E9561DBB5D3300700639 /* ItemListDataProviderTests.swift in Sources */,
 				988B53A91DB5F93100F76F71 /* ItemManagerTests.swift in Sources */,
+				985077C01DBE763A005B3FCF /* InputViewControllerTests.swift in Sources */,
 				983935421DB5D03E007A7B5B /* LocationTests.swift in Sources */,
 				985077BA1DBE6CA0005B3FCF /* DetailViewControllerTests.swift in Sources */,
 				983D6DA21DB4D130007D6874 /* ToDoItemTests.swift in Sources */,
