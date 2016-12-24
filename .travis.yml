@@ -10,4 +10,4 @@ xcode_scheme: TDDTodo
 xcode_sdk: iphonesimulator9.3
 
 script:
-    - xcodebuild clean build test -project TDDTodo.xcodeproj CODE_SIGNING_REQUIRED=NO
+    - xcodebuild clean build test -project TDDTodo.xcodeproj -scheme TDDTodo CODE_SIGNING_REQUIRED=NO
