@@ -56,5 +56,7 @@ class InputViewController: UIViewController {
             let item = ToDoItem(title: titleString)
             self.itemManager?.addItem(item)
         }
+        
+        dismissViewControllerAnimated(true, completion: nil)
     }
 }

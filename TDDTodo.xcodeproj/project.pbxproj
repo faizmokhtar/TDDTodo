@@ -32,6 +32,7 @@
 		985077C21DBE766A005B3FCF /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985077C11DBE766A005B3FCF /* InputViewController.swift */; };
 		988B53A91DB5F93100F76F71 /* ItemManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988B53A81DB5F93100F76F71 /* ItemManagerTests.swift */; };
 		988B53AB1DB5F9CA00F76F71 /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988B53AA1DB5F9CA00F76F71 /* ItemManager.swift */; };
+		988B64BD1E0D0F9D0045D66A /* StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988B64BC1E0D0F9D0045D66A /* StoryboardTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		985077C11DBE766A005B3FCF /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		988B53A81DB5F93100F76F71 /* ItemManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemManagerTests.swift; sourceTree = "<group>"; };
 		988B53AA1DB5F9CA00F76F71 /* ItemManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
+		988B64BC1E0D0F9D0045D66A /* StoryboardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				983D6D981DB4CEDE007D6874 /* Info.plist */,
 				983911CB1DB91B57004C1C13 /* Controller */,
 				9801F0E41E0C193F00A5B743 /* APIClientTests.swift */,
+				988B64BC1E0D0F9D0045D66A /* StoryboardTests.swift */,
 			);
 			path = TDDTodoTests;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				985077C01DBE763A005B3FCF /* InputViewControllerTests.swift in Sources */,
 				983935421DB5D03E007A7B5B /* LocationTests.swift in Sources */,
 				985077BA1DBE6CA0005B3FCF /* DetailViewControllerTests.swift in Sources */,
+				988B64BD1E0D0F9D0045D66A /* StoryboardTests.swift in Sources */,
 				9801F0E51E0C193F00A5B743 /* APIClientTests.swift in Sources */,
 				983D6DA21DB4D130007D6874 /* ToDoItemTests.swift in Sources */,
 				983911CA1DB91B4A004C1C13 /* ItemListViewControllerTests.swift in Sources */,

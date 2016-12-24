@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mrX-v8-dEP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="K5z-kh-65D">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -15,18 +16,18 @@
                         <viewControllerLayoutGuide type="bottom" id="gyd-2k-Apa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Dtw-HW-8HR">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="150" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tK8-Mm-aF2">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="81" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tK8-Mm-aF2">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="152" id="8wm-Qm-0wT" customClass="ItemCell" customModule="TDDTodo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="600" height="80"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="81" id="8wm-Qm-0wT" customClass="ItemCell" customModule="TDDTodo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="81"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8wm-Qm-0wT" id="s6G-ey-jcF">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="79.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NrM-Uz-uMb">
@@ -113,9 +114,6 @@
                                                     <exclude reference="6Tw-O8-slx"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <exclude reference="74L-5a-m99"/>
-                                                    <exclude reference="Sea-2R-Lqx"/>
-                                                    <exclude reference="e9G-U5-XhA"/>
                                                     <exclude reference="7ga-vX-KJD"/>
                                                     <exclude reference="DNu-kd-ycK"/>
                                                     <exclude reference="HPp-Ey-KnN"/>
@@ -127,6 +125,9 @@
                                                     <exclude reference="eCa-Pv-rvJ"/>
                                                     <exclude reference="pDW-EV-xxy"/>
                                                     <exclude reference="y17-4L-dI0"/>
+                                                    <exclude reference="74L-5a-m99"/>
+                                                    <exclude reference="Sea-2R-Lqx"/>
+                                                    <exclude reference="e9G-U5-XhA"/>
                                                 </mask>
                                             </variation>
                                             <variation key="heightClass=regular-widthClass=compact">
@@ -135,13 +136,6 @@
                                                     <include reference="6Tw-O8-slx"/>
                                                 </mask>
                                                 <mask key="constraints">
-                                                    <include reference="74L-5a-m99"/>
-                                                    <exclude reference="Bl7-Qf-iHK"/>
-                                                    <include reference="Sea-2R-Lqx"/>
-                                                    <include reference="e9G-U5-XhA"/>
-                                                    <exclude reference="nsO-S2-yd2"/>
-                                                    <exclude reference="wZX-7U-9X5"/>
-                                                    <exclude reference="xHw-3U-59y"/>
                                                     <include reference="7ga-vX-KJD"/>
                                                     <include reference="DNu-kd-ycK"/>
                                                     <include reference="HPp-Ey-KnN"/>
@@ -153,6 +147,13 @@
                                                     <include reference="eCa-Pv-rvJ"/>
                                                     <include reference="pDW-EV-xxy"/>
                                                     <include reference="y17-4L-dI0"/>
+                                                    <include reference="74L-5a-m99"/>
+                                                    <exclude reference="Bl7-Qf-iHK"/>
+                                                    <include reference="Sea-2R-Lqx"/>
+                                                    <include reference="e9G-U5-XhA"/>
+                                                    <exclude reference="nsO-S2-yd2"/>
+                                                    <exclude reference="wZX-7U-9X5"/>
+                                                    <exclude reference="xHw-3U-59y"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -173,6 +174,13 @@
                             <constraint firstItem="tK8-Mm-aF2" firstAttribute="bottom" secondItem="gyd-2k-Apa" secondAttribute="top" id="x0y-t4-AFa"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="8mO-W0-W1u">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Ute-CF-STK">
+                            <connections>
+                                <action selector="addItem:" destination="mrX-v8-dEP" id="RPC-U8-tJb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="dataProvider" destination="ynU-oI-9n0" id="8K9-xT-ub2"/>
                         <outlet property="tableView" destination="tK8-Mm-aF2" id="8hr-8S-Ada"/>
@@ -181,7 +189,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Efq-Iz-tUS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="ynU-oI-9n0" customClass="ItemListDataProvider" customModule="TDDTodo" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="159" y="184.5"/>
+            <point key="canvasLocation" x="971" y="184"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="x0U-Ew-3y9">
@@ -192,6 +200,7 @@
                         <viewControllerLayoutGuide type="bottom" id="QyS-hS-vsV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Crn-q8-AOH">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6VK-13-XdL">
@@ -326,11 +335,8 @@
                                 <exclude reference="Lim-7X-ltk"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="6gU-bh-iOs"/>
-                                <exclude reference="BeF-TE-nyt"/>
-                                <exclude reference="WxY-G7-cPd"/>
-                                <exclude reference="ls7-Fx-hFy"/>
-                                <exclude reference="obY-zm-B0n"/>
+                                <exclude reference="36c-ls-vzJ"/>
+                                <exclude reference="8tZ-Du-ekV"/>
                                 <exclude reference="Dpq-c5-6xH"/>
                                 <exclude reference="ZaG-lk-YuK"/>
                                 <exclude reference="pWD-I9-bdg"/>
@@ -343,8 +349,11 @@
                                 <exclude reference="NDq-KG-yiM"/>
                                 <exclude reference="cky-SY-kfr"/>
                                 <exclude reference="dHV-Ok-LtE"/>
-                                <exclude reference="8tZ-Du-ekV"/>
-                                <exclude reference="36c-ls-vzJ"/>
+                                <exclude reference="6gU-bh-iOs"/>
+                                <exclude reference="BeF-TE-nyt"/>
+                                <exclude reference="WxY-G7-cPd"/>
+                                <exclude reference="ls7-Fx-hFy"/>
+                                <exclude reference="obY-zm-B0n"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -357,11 +366,8 @@
                                 <include reference="Lim-7X-ltk"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="6gU-bh-iOs"/>
-                                <include reference="BeF-TE-nyt"/>
-                                <include reference="WxY-G7-cPd"/>
-                                <include reference="ls7-Fx-hFy"/>
-                                <include reference="obY-zm-B0n"/>
+                                <include reference="36c-ls-vzJ"/>
+                                <include reference="8tZ-Du-ekV"/>
                                 <include reference="Dpq-c5-6xH"/>
                                 <include reference="ZaG-lk-YuK"/>
                                 <include reference="pWD-I9-bdg"/>
@@ -374,8 +380,11 @@
                                 <include reference="NDq-KG-yiM"/>
                                 <include reference="cky-SY-kfr"/>
                                 <include reference="dHV-Ok-LtE"/>
-                                <include reference="8tZ-Du-ekV"/>
-                                <include reference="36c-ls-vzJ"/>
+                                <include reference="6gU-bh-iOs"/>
+                                <include reference="BeF-TE-nyt"/>
+                                <include reference="WxY-G7-cPd"/>
+                                <include reference="ls7-Fx-hFy"/>
+                                <include reference="obY-zm-B0n"/>
                             </mask>
                         </variation>
                     </view>
@@ -390,7 +399,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4yv-Pg-E4Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="951" y="184.5"/>
+            <point key="canvasLocation" x="1763" y="184"/>
         </scene>
         <!--Input View Controller-->
         <scene sceneID="viv-NU-faU">
@@ -401,6 +410,7 @@
                         <viewControllerLayoutGuide type="bottom" id="O0A-Yw-l11"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NX4-kh-BCa">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VEE-ea-jyv">
@@ -506,7 +516,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wGn-xv-kAM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1770" y="184.5"/>
+            <point key="canvasLocation" x="2582" y="184"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xhk-ji-M5Z">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K5z-kh-65D" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="kYp-67-FJn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mrX-v8-dEP" kind="relationship" relationship="rootViewController" id="E29-Oi-mPb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y6i-u2-vnM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159" y="184"/>
         </scene>
     </scenes>
 </document>
