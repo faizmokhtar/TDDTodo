@@ -6,7 +6,7 @@ branches:
 
 osx_image: xcode7.3
 xcode_project: TDDTodo.xcodeproj
-xcode_scheme: TDDTodoTests
+xcode_scheme: TDDTodo
 
 script:
     - xcodebuild clean build test -project TDDTodo.xcodeproj -scheme TDDTodoTests CODE_SIGNING_REQUIRED=NO -sdk iphonesimulator
